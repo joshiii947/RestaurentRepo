@@ -7,13 +7,14 @@ import org.springframework.web.bind.annotation.*;
 public class OrderController {
 
     @GetMapping("/getOrderDetails/{id}")
-    public void getOrderDetailsWithOrderId(@RequestParam String id){
+    public String getOrderDetailsWithOrderId(@RequestParam String id){
 
-
+        return "OK";
     }
 
     @PostMapping("/provideOrderDetails")
-    public void provideOrderDetails(@RequestBody OrderResource orderResource){
+    public String provideOrderDetails(@RequestBody OrderResource orderResource){
 
+        return "OK";
     }
 }

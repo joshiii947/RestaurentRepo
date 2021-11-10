@@ -17,6 +17,5 @@ public class Restaurent {
     @GeneratedValue
     private int id;
     private String restaurentName;
-    private String orderDetails;
-    private String slotDetails;
+    private String slotsBooked;
 }

@@ -8,6 +8,8 @@ import org.springframework.web.bind.annotation.RestController;
 @RestController
 public class RestaurentController {
 
+
+
     @PostMapping("/createNewRestaurent")
     public String createRestaurent(@RequestBody RestaurentResource restaurentResource){
 

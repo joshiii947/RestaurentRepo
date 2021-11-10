@@ -8,11 +8,7 @@ import org.springframework.stereotype.Service;
 @Service
 public class RestaurentServiceLayer {
 
-    @Autowired
-    private RestaurentRepository restaurentRepository;
 
-    @Autowired
-    private OrderRepository orderRepository;
 
 
 
